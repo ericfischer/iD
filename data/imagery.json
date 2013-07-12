@@ -629,5 +629,62 @@
             18
         ],
         "sourcetag": "NŽT ORT10LT"
+    },
+    {
+        "name": " OSM GPS traces",
+        "template": "http://99.162.154.51/cgi-bin/new4.cgi?z={z}&x={x}&y={y}&v=0",
+        "overlay": true,
+        "scaleExtent": [
+            0,
+            20
+        ],
+        "extent": [
+            [
+                -180.00,
+                -90.00
+            ],
+            [
+                180.00,
+                90.00
+            ]
+        ]
+    },
+    {
+        "name": " Twitter",
+        "template": "http://99.162.154.51/cgi-bin/twitter-jun11.cgi?z={z}&x={x}&y={y}&v=0",
+        "overlay": true,
+        "scaleExtent": [
+            0,
+            20
+        ],
+        "extent": [
+            [
+                -180.00,
+                -90.00
+            ],
+            [
+                180.00,
+                90.00
+            ]
+        ]
+    },
+    {
+        "name": " TIGER overlay",
+        "template": "http://99.162.154.51/cgi-bin/tiger-update.cgi?z={z}&x={x}&y={y}&v=0",
+        "overlay": true,
+        "scaleExtent": [
+            0,
+            20
+        ],
+        "extent": [
+            [
+                -180.00,
+                -90.00
+            ],
+            [
+                180.00,
+                90.00
+            ]
+        ]
     }
 ]
