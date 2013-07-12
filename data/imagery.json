@@ -632,7 +632,7 @@
     },
     {
         "name": " OSM GPS traces",
-        "template": "http://99.162.154.51/cgi-bin/new4.cgi?z={z}&x={x}&y={y}&v=0",
+        "template": "http://trafficways.org/cgi-bin/gpsoverlay.cgi?z={z}&x={x}&y={y}",
         "overlay": true,
         "scaleExtent": [
             0,
@@ -669,8 +669,8 @@
         ]
     },
     {
-        "name": " TIGER overlay",
-        "template": "http://99.162.154.51/cgi-bin/tiger-update.cgi?z={z}&x={x}&y={y}&v=0",
+        "name": " TIGER 2006/2012/OSM",
+        "template": "http://trafficways.org/cgi-bin/tiger-update.cgi?z={z}&x={x}&y={y}",
         "overlay": true,
         "scaleExtent": [
             0,
