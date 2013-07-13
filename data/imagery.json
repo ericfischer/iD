@@ -651,7 +651,7 @@
     },
     {
         "name": " Twitter",
-        "template": "http://99.162.154.51/cgi-bin/twitter-jun11.cgi?z={z}&x={x}&y={y}&v=0",
+        "template": "http://trafficways.org/cgi-bin/twitter-jun11.cgi?z={z}&x={x}&y={y}",
         "overlay": true,
         "scaleExtent": [
             0,
