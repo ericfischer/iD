@@ -1,4 +1,4 @@
-iD.LocalGpx = function(context) {
+iD.GpxLayer = function(context, dispatch) {
     var projection,
         gj = {},
         enable = true,
@@ -9,8 +9,7 @@ iD.LocalGpx = function(context) {
             .data([render]);
 
         svg.enter()
-            .append('svg')
-            .attr('class', 'layer-layer gpx-layer');
+            .append('svg');
 
         svg.style('display', enable ? 'block' : 'none');
 
@@ -74,7 +73,7 @@ iD.LocalGpx = function(context) {
 
             reader.onload = function(e) {
                 render.geojson(toGeoJSON.gpx(toDom(e.target.result)));
-                context.redraw();
+                dispatch.change();
                 context.map().pan([0, 0]);
             };
 
