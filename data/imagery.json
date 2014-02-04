@@ -24751,5 +24751,41 @@
         ],
         "terms_url": "http://data.wien.gv.at/",
         "terms_text": "Stadt Wien"
+    },
+    {
+        "name": "OpenStreetMap GPS traces",
+        "type": "tms",
+        "template": "http://trafficways.org/cgi-bin/tile.cgi?map=gps-dots&z={zoom}&x={x}&y={y}",
+        "scaleExtent": [
+            0,
+            18
+        ],
+        "polygon": [
+            [
+                [
+                    -125,
+                    25
+                ],
+                [
+                    -66,
+                    25
+                ],
+                [
+                    -66,
+                    50
+                ],
+                [
+                    -125,
+                    50
+                ],
+                [
+                    -125,
+                    25
+                ]
+            ]
+        ],
+        "terms_url": "http://www.mapbox.com/tos/",
+        "terms_text": "MapBox",
+        "overlay": true
     }
 ]
